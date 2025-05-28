@@ -18,6 +18,8 @@ Additionally:<br>
 ○ Experimental  parameters, such as temperature to control response diversity;<br>
 ○ Iterate, by modifying and refining multiple times based on responses.<br>
 
+---
+
 设计System Prompt时，可以将下面的方法名，输入给GPT，让它生成具有这些方法点的System Prompt，辅助你的设计。<br>
 
 ○ 结构化提示: 虽然没有显式标签，但通过段落、编号列表和逻辑分组，使得整个提示具有清晰的结构。<br>
@@ -35,6 +37,8 @@ Additionally:<br>
 还有，<br>
 ○ 实验参数，比如控制回答多样性的温度；<br>
 ○ 迭代，根据回答多次修改、完善。<br>
+
+---
 
 **EN version**<br>
 The complete example is below:<br>
@@ -81,7 +85,7 @@ Please strictly adhere to all the instructions above (including tool usage guide
 
 ---
 
-**Annotated EN version (`---` and `--` indicate that there are annotation explanations.)**<br>
+**Annotated EN version (`---` and `--` indicate that there are annotation explanations.):**<br>
 
 --- Structure Prompts The overall organization of this prompt demonstrates good structure. ---
 
