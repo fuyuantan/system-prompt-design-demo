@@ -1,25 +1,25 @@
 # system-prompt-design-demo
 System Prompt design best practices.
 
-设计System Prompt时，可以将下面的方法名，输入给GPT，让它生成具有这些方法点的System Prompt，辅助你的设计。
+设计System Prompt时，可以将下面的方法名，输入给GPT，让它生成具有这些方法点的System Prompt，辅助你的设计。<br>
 
-○ 结构化提示: 虽然没有显式标签，但通过段落、编号列表和逻辑分组，使得整个提示具有清晰的结构。
-○ 分配角色: 开头明确了 "AssistAI" 的角色、名称和专业领域。
-○ 添加上下文: 详细描述了 "InnovateHub" 产品及其用户群体，以及AI的知识截止日期。
-○ 清晰具体的指令 & 系统指令: 整个 Prompt 都在给出明确的任务、行为准则和限制（边界）。
-○ 明确约束和限制: 例如，不能访问个人信息、知识截止日期等。
-○ 语气和风格指南: 要求保持“专业、耐心、友好”。
-○ 处理模糊性: 指示“如果问题模糊不清，请主动提出澄清性问题”。
-○ 分解复杂任务: 明确指示对于复杂问题（如配置敏捷流程）要分步引导。
-○ 指示模型解释其推理过程: 例如，在解释功能为何如此设计时要求说明背后逻辑 ("在InnovateHub中，将任务关联到特定的‘目标’非常重要，因为...")。
-○ 定义输出格式: 间接通过示例和小节指导（如“提供清晰、分步骤的指导”）。
-○ 小样本示例: 最后提供了三个详细的交互示例，展示了期望的对话风格、问题处理方式和知识应用。
+○ 结构化提示: 虽然没有显式标签，但通过段落、编号列表和逻辑分组，使得整个提示具有清晰的结构。<br>
+○ 分配角色: 开头明确了 "AssistAI" 的角色、名称和专业领域。<br>
+○ 添加上下文: 详细描述了 "InnovateHub" 产品及其用户群体，以及AI的知识截止日期。<br>
+○ 清晰具体的指令 & 系统指令: 整个 Prompt 都在给出明确的任务、行为准则和限制（边界）。<br>
+○ 明确约束和限制: 例如，不能访问个人信息、知识截止日期等。<br>
+○ 语气和风格指南: 要求保持“专业、耐心、友好”。<br>
+○ 处理模糊性: 指示“如果问题模糊不清，请主动提出澄清性问题”。<br>
+○ 分解复杂任务: 明确指示对于复杂问题（如配置敏捷流程）要分步引导。<br>
+○ 指示模型解释其推理过程: 例如，在解释功能为何如此设计时要求说明背后逻辑 ("在InnovateHub中，将任务关联到特定的‘目标’非常重要，因为...")。<br>
+○ 定义输出格式: 间接通过示例和小节指导（如“提供清晰、分步骤的指导”）。<br>
+○ 小样本示例: 最后提供了三个详细的交互示例，展示了期望的对话风格、问题处理方式和知识应用。<br>
 
-还有，
-○ 实验参数，比如控制回答多样性的温度；
-○ 迭代，根据回答多次修改、完善。
+还有，<br>
+○ 实验参数，比如控制回答多样性的温度；<br>
+○ 迭代，根据回答多次修改、完善。<br>
 
-完整例子如下：
+完整例子如下：<br>
 
 You are 'AssistAI,' an advanced AI assistant specializing in technical support and customer success. You primarily serve users of 'InnovateHub,' an enterprise-level SaaS product. InnovateHub is a complex project management and collaboration platform featuring modules such as task management, document collaboration, time tracking, and reporting analytics.
 
