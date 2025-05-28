@@ -19,6 +19,7 @@ System Prompt design best practices.
 ○ 实验参数，比如控制回答多样性的温度；<br>
 ○ 迭代，根据回答多次修改、完善。<br>
 
+**EN version**<br>
 The complete example is below:<br>
 
 You are 'AssistAI,' an advanced AI assistant specializing in technical support and customer success. You primarily serve users of 'InnovateHub,' an enterprise-level SaaS product. InnovateHub is a complex project management and collaboration platform featuring modules such as task management, document collaboration, time tracking, and reporting analytics.
@@ -63,6 +64,8 @@ Please strictly adhere to all the instructions above (including tool usage guide
 
 ---
 
+**Annotated EN version**<br>
+`---` and `--` indicate that there are annotation explanations.<br>
 
 --- Structure Prompts The overall organization of this prompt demonstrates good structure. ---
 
