@@ -1,5 +1,4 @@
-# system-prompt-design-demo
-System Prompt design best practices.
+# System Prompt design best practices.
 
 设计System Prompt时，可以将下面的方法名，输入给GPT，让它生成具有这些方法点的System Prompt，辅助你的设计。<br>
 
